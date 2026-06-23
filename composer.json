@@ -1,5 +1,9 @@
 {
     "name": "adit/taskflow-api",
     "description": "TaskFlow API",
-    "type": "project"
+    "type": "project",
+    "require": {
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }
 }
